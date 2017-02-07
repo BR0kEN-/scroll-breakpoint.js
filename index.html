@@ -51,7 +51,7 @@
       return this.scrollY > breakpoint;
     }, function(isTrue) {
       console.log(
-        'jQuery.scrollBreakpoint: you are ' + (isTrue ? 'BELOW' : 'ABOVE') + ' of ' + breakpoint + ' pixels.',
+        'scrollBreakpoint.js: you are ' + (isTrue ? 'BELOW' : 'ABOVE') + ' of ' + breakpoint + ' pixels.',
         'Perform the logic and calmly continue scrolling.'
       );
     });
@@ -61,7 +61,7 @@
       var isTrue = this.scrollY > breakpoint;
 
       console.log(
-        'window.onScroll: you are ' + (isTrue ? 'BELOW' : 'ABOVE') + ' of ' + breakpoint + ' pixels.',
+        'window.onscroll: you are ' + (isTrue ? 'BELOW' : 'ABOVE') + ' of ' + breakpoint + ' pixels.',
         'Just imagine how many times your code executes when you are doing this way...'
       );
     });
